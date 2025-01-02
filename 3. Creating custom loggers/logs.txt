@@ -1,0 +1,8 @@
+INFO: 2025/01/02 10:37:53 main.go:26: Starting the application...
+INFO: 2025/01/02 10:37:53 main.go:27: Something noteworthy happened
+WARNING: 2025/01/02 10:37:53 main.go:28: There is something you should know about
+ERROR: 2025/01/02 10:37:53 main.go:29: Something went wrong
+INFO: 2025/01/02 10:38:25 main.go:26: Starting the application...
+INFO: 2025/01/02 10:38:25 main.go:27: Something noteworthy happened
+WARNING: 2025/01/02 10:38:25 main.go:28: There is something you should know about
+ERROR: 2025/01/02 10:38:25 main.go:29: Something went wrong
