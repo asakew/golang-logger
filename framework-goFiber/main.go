@@ -1,3 +1,4 @@
+// https://docs.gofiber.io/api/middleware/logger/
 package main
 
 import (
