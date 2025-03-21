@@ -11,7 +11,13 @@ func main() {
 	app := fiber.New()
 
 	// Set up the logging middleware
-	app.Use(logger.New())
+	//app.Use(logger.New()) // default
+
+	// Custom logger
+	app.Use(logger.New(logger.Config{
+		Format:     "${time} - ${status} - ${method} - ${ip} - ${path}\n",
+		TimeFormat: "2006-01-02 15:04:05",
+	}))
 
 	// Define a simple route
 	app.Get("/", func(c *fiber.Ctx) error {
